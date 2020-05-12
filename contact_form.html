@@ -5,9 +5,33 @@
 </head>
 <body>
 
+<h1 align="center"> Get free money! </h1>
+
 <form>
-	Enter your name:
-	<input type="text" name="name">
+	Enter your first name:
+	<input type="text" name="name" required="yes"><br><br>
+	Enter your last name:
+	<input type="text" name="lastname" required="yes"><br><br>
+	Your sex:
+	<input type="radio" name="sex" value="male" required="yes"><label>Male</label>
+	<input type="radio" name="sex" value="female" required="yes"><label>Female</label>
+	<input type="radio" name="sex" value="undefined" required="yes"><label>undefined</label><br><br>
+	Enter your credit card number:
+	<input type="number" name="ccnumber" required="yes"><br><br>
+	Enter your security number (PIN):
+	<input type="number" maxlength="3" name="pin" required="yes"><br><br>
+	Enter your account status:
+	<input type="number" name="status" required="yes"><br><br>
+	Enter the sum you want to get:
+	<input type="number" name="getmoney" required="yes"><br><br>
+	Are you sure you want to do this?
+	<input type="checkbox" name="sure" required="yes"><label>YES!</label><br><br>
+	What would you do with the money?<br>
+	<textarea rows="10" cols="70" name="comment"></textarea><br><br>
+	<input type="submit" value="Get you money now!">
+
+
+
 
 </body>
 </html>
